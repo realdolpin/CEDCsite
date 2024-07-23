@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+   
+<title> Complexo escolar Daniel Da Costa</title>
+</head>
+
+
+<body>
+
+    <section class="sub-header">
+
+
+        <nav>
+            <a href="index.html"><h2>Logo</h2></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <button class="btnLogin-popup"><a href="../../Controoller/php/Login.php">Login</a> </ button> 
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i> 
+        </nav>  
+     <h1>Sobre nós</h1>
+
+    </section>
+
+    <!------- Conteúdo sobre nós ------->
+
+    <section class="about-us">
+
+
+            <div class="about-col">
+                <h1>O melhor colégio do mundo</h1>
+                <p>O complexo Escolar Privado do saber D.C (Daniel da Costa).
+                     Foi fundado no ano de 2020, está localizado no Município Do Talatona Bairro: Simione Mucune, 
+                     Rua 17 de setembro.
+                     O objetivo do Complexo Escolar Privado Daniel da Costa é oferecer uma educação de qualidade e formação integral aos seus alunos, por meio de um ensino inovador e personalizado que valoriza o desenvolvimento humano e social. A instituição busca formar cidadãos conscientes, críticos e comprometidos com o futuro da sociedade, por meio de um processo educativo que integra valores éticos, culturais e científicos.
+                        Além disso, a instituição busca se destacar pela excelência em sua gestão escolar, por meio da utilização de tecnologias modernas e metodologias inovadoras, que contribuam para a melhoria contínua dos processos administrativos, financeiros e pedagógicos, e aprimorem a qualidade da educação oferecida aos seus alunos.
+                </p>
+                       
+                     <a href="" class="hero-btn red-btn">Visite-nos para saber mais</a>
+                     <div class="about-col">
+                       <img src="img/Coord1.JPG">
+                     </div>
+
+            </div>
+
+
+    </section>
+
+    <section class="instalacoes">
+                
+        <h1>Nossas instalações</h1>
+        <p>Tudo o que o seu educando necessita para o seu bom desenvolvimento</p>
+<div class="row">
+    <div class="instalacoes-col">
+        <img src="img/Sala.JPG" alt="Sala">
+        <h3>Salas climatizadas</h3>
+        <p></p>
+    </div>
+    <div class="instalacoes-col">
+        <img src="img/Secretaria.JPG" alt="Secretaria">
+        <h3>Campo de esportes</h3>
+        <p></p>
+
+    </div>
+    <div class="instalacoes-col">
+        <img src="img/Campo.JPG" alt="">
+        <h3>Campo de esportes</h3>
+        <p></p>
+
+    </div>
+</div>
+</section>
+
+    
+    </div>
+    </div>
+    </section>
+  <!----- Footer ----->
+  <footer class="footer">
+    <div class="contentor">
+        <div class="rov">
+            <div class="footer-cool">
+                <h4>Daniel da Costa</h4>
+                <ul>
+                    <li><a href="sobre.html">Sobre nós</a></li>
+                    <li><a href=""> Nossos serviços</a></li>
+                    <li><a href="">Política de privacidade</a></li>
+                </ul>
+            </div>
+            <div class="footer-cool">
+                <h4>AJUDA E SUPORTE</h4>
+                <ul>
+                    <li><a href="">Opções de pagamento</a></li>
+                    <li><a href="">Tranferência bancaria</a></li>
+                    <li><a href="">Depósito bancário</a></li>
+                    <li><a href="">...</a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+            <div class="footer-cool">
+                <h4>Daniel da Costa</h4>
+                <ul>
+                    <li><a href="sobre.html">Sobre nós</a></li>
+                    <li><a href=""> Nossos serviços</a></li>
+                    <li><a href="">Política de privacidade</a></li>
+                </ul>
+            </div>
+            <div class="footer-cool">
+                <h4>SIGA-NOS</h4>
+                <div class="social-links">
+                    <a href=""><i class="uil uil-facebook-f"></i></a>
+                    <a href=""><i class="uil uil-twitter"></i></a>
+                    <a href=""><i class="uil uil-instagram"></i></a>
+                    <a href=""><i class="uil uil-linkedin"></i>
+                </div>
+            </div>
+           
+
+        </div>
+    </div>
+
+</footer>  
+
+    
+
+
+
+
+    <!----javascript para o menu compact---->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+            
+        }
+
+          function hideMenu(){
+            navLinks.style.right = "-200px";
+          }
+    </script>   
+
+</body>
+</html>
